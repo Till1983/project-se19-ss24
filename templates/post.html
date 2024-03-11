@@ -1,0 +1,30 @@
+<!-- post.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/posts">Blog</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.content }}</p>
+    </div>
+</body>
+</html>
