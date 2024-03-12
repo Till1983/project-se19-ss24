@@ -1,13 +1,13 @@
 # Personal Blog
 
 This is a basic web development project by a beginner. I will be using HTML, CSS, and the Python Flask framework to create a basic blog.
-It contains a landing page, an about page, and the blog page itself. Since the blog is meant to cover a variety of topic, readers
+It contains a landing page, an about page, and the blog page itself. Since the blog is meant to cover a variety of topics, readers
 will be able to filter the posts by topic according to their interests.
 
 The HTML files can be found in the **templates** folder. 
 The CSS files can be found in the **static** folder.
 
-If you want to see the deployed version of the project, click [here](https://project-se19-ss24.onrender.com).
+If you want to see a deployed version of the project, click [here](https://project-se19-ss24.onrender.com).
 
 Go through the following steps to install the requisite software and run the app:
 
