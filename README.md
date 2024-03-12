@@ -7,6 +7,8 @@ will be able to filter the posts by topic according to their interests.
 The HTML files can be found in the **templates** folder. 
 The CSS files can be found in the **static** folder.
 
+If you want to see the deployed version of the project, click [here](https://project-se19-ss24.onrender.com).
+
 Go through the following steps to install the requisite software and run the app:
 
 1. ### Clone the repository
