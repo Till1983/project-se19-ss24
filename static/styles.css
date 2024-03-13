@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
 }
 
+
 /* Navbar Styles */
 .navbar {
     background-color: #4f4040;
@@ -37,12 +38,13 @@ body {
 }
 
 .menu li a:hover {
-    color: rgb(246, 71, 71); /* Change color to red on hover */
+    color: rgb(246, 71, 71);
 }
+
 
 /* Content Styles */
 .content {
-    margin-top: 120px; /* Adjust according to navbar height */
+    margin-top: 120px; 
     padding: 30px;
 }
 
@@ -50,7 +52,6 @@ h1 {
     font-size: 36px;
     margin-bottom: 20px;
 }
-
 
 
 /* Responsive Design */
