@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error</title>
-    <link rel="stylesheet" href="../static/styles.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <ul class="menu">
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/posts">Blog</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
+{% extends "base.html" %}
+    {% block content %}
     <section class="content">
         <h1>Ooops</h1>
         <p>This post does not exist. Sorry!</p>
     </section>
+    {% endblock %}
 </body>
 </html>
