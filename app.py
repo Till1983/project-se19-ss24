@@ -6,19 +6,19 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def index():
-    return render_template("index.html")
+    return render_template("index.html", title="Welcome")
 
 @app.route('/about')
 def about():
-    return render_template("about.html")
+    return render_template("about.html", title="About this blog")
 
 @app.route('/contact')
 def contact():
-    return render_template("contact.html")
+    return render_template("contact.html", title="Contact me")
 
 @app.route('/posts')
 def posts():
-    return render_template("posts.html")
+    return render_template("posts.html", title="My Thoughts and Musings")
 
 @app.route('/posts/<int:post_id>')
 def post(post_id):
@@ -27,7 +27,7 @@ def post(post_id):
     if post:
         return render_template("post.html", post=post)
     else:
-        return render_template("error.html")
+        return render_template("error.html", title="Error")
 
 if __name__ == '__main__':
     app.run(debug=True)
