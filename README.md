@@ -7,7 +7,7 @@ will be able to filter the posts by topic according to their interests.
 The HTML files can be found in the **templates** folder. 
 The CSS files can be found in the **static** folder.
 
-You can find a  deployed version of the project [here](https://project-se19-ss24.onrender.com).
+You can find a deployed version of the project [here](https://project-se19-ss24.onrender.com). I'm currently using a free version of Render, which causes delayed response times after long inactivity, and therefore causes longer loadtimes when you click on the link above. I'm trying to find a better solution.
 
 Go through the following steps to install the requisite software and run the app:
 
